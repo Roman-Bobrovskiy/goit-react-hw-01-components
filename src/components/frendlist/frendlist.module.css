@@ -1,0 +1,23 @@
+.friendList {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 130px);
+
+    padding: 0;
+    list-style: none;
+    margin: 0.5rem;
+    width: 15rem;
+}
+.item {
+    margin: 0.3rem;
+    text-align: center;
+}
+.onLine {
+    color: green;
+}
+.offLine {
+    color: red;
+}
+.name {
+    text-align: center;
+}
