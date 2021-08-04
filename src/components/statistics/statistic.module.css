@@ -2,7 +2,7 @@
     display: grid;
     flex-direction: column;
     width: 15rem;
-    margin: 0.5rem;
+    margin: auto;
 }
 .title {
     text-align: center;
